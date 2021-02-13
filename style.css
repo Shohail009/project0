@@ -1,0 +1,109 @@
+
+.img-responsive{
+    max-width: 100%;
+   
+}
+
+
+.hero_image{
+    
+    background-image: url("food.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+.hero_wrapper{
+    
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    bottom: 70%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-family: serif;
+       
+}
+.hero_wrapper h1{
+    font-size: 30px;
+}
+.form_code .post_code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;     
+}
+.form_code button{
+    width: 30%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    margin-top: 5px;
+    border-radius: .6rem;
+    outline: none;
+    padding: .3rem;
+     
+}
+/* product section*/
+.product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.product_list{
+    float: left;
+    width: 32%;
+    height: 50%;
+    margin-left: .7rem;
+    margin-top: 20px;
+    text-align: center;
+     
+}
+
+.product_list:first-of-type{
+    margin-left: 0;
+}
+@media screen and (max-width:700px){
+    .product_list{
+       width: 100%;
+        float: none;
+    }
+}
+.img{
+    height: 10%;
+}
+.copyright{
+    margin-top: 500px;
+    text-align: center;
+    color: brown;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
